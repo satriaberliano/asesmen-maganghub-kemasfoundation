@@ -24,6 +24,7 @@ body {
   background-image: linear-gradient(to top, #27272a, #18181b, #09090b);
   color: #f5f5f5;
   background-attachment: scroll;
+  position: relative;
 }
 
 header {
@@ -212,6 +213,35 @@ nav > ul > li > a:hover {
 .section-project > a > img:hover {
   opacity: 0.7;
   transition: opacity 0.3s ease;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid rgba(161, 161, 170, 0.155);
+  border-radius: calc(infinity * 1px);
+  background-color: var(--background-section-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.btn-back-to-top:hover {
+  background-color: color-mix(in oklab, #f5f5f5 10%, transparent);
+  transition: background-color 0.3s ease;
+}
+
+.btn-back-to-top > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #9f9fa9;
 }
 
 footer {
