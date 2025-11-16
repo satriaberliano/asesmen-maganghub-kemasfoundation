@@ -5,6 +5,9 @@
 Tugas: Membuat satu halaman website dengan spesifikasi yang telah ditentukan
 
 
+### Link : https://asesmen-maganghub-kemasfoundation-sbm.netlify.app/
+
+
 ### Hasil: Tampilan Desktop
 
 <img width="1920" height="1080" alt="Screenshot (1425)" src="https://github.com/user-attachments/assets/6577e4f4-b300-4f7f-bdcd-d4211bcecbe0" />
